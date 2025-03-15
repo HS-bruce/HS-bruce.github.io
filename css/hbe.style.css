@@ -49,6 +49,7 @@
 	color: #aaa;
 	font-weight: 400;
 	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	appearance: none;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
 }
 
@@ -57,7 +58,7 @@
 }
 
 .hbe-input-label {
-	display: inline-block;
+	display: block;
 	float: right;
 	padding: 0 1em;
 	width: 40%;
